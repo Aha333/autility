@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open("README", 'r') as f:
+with open("README.md", 'r') as f:
     long_description = f.read()
 
 setup(
@@ -10,11 +10,11 @@ setup(
     license="MIT",
     long_description=long_description,
     author='DDD',
-    author_email='secret',
+    author_email='daweideng9@gmail.com',
     url="OK",
     packages=['autility'],  # same as name
     install_requires=['pandas', 'plotly'],  # external packages as dependencies
     scripts=[
-        'scripts/plot_something',
+        'scripts/plot_something.py',
     ]
 )

@@ -19,3 +19,6 @@ autility/
     setup.py
     
 """
+# 3. Distribute your package!!
+# https://packaging.python.org/tutorials/packaging-projects/
+# Pretty good
