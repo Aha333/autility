@@ -11,7 +11,6 @@ setup(
     long_description=long_description,
     author='DDD',
     author_email='daweideng9@gmail.com',
-    url="OK",
     packages=['autility'],  # same as name
     install_requires=['pandas', 'plotly'],  # external packages as dependencies
     scripts=[
